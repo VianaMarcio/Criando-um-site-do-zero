@@ -1,0 +1,168 @@
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+        
+        main {
+            width: 980px;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        ul {
+            padding: 0px !important;
+        }
+        
+        .menu_principal {
+            background-color: #252323;
+            height: 60px;
+            width: 100%;
+        }
+        
+        .logo {
+            padding: 16px;
+            width: 70%;
+            float: left;
+        }
+        
+        .redes_sociais ul li {
+            display: inline-block;
+            float: left;
+            list-style: none;
+            margin-left: 15px;
+        }
+        
+        .redes_sociais {
+            width: 20%;
+            float: left;
+        }
+        
+        .header2 {
+            background-color: #ffffff;
+            width: 980px;
+            margin: 0 auto;
+            padding-top: 15px;
+        }
+        
+        .menu ul li {
+            display: inline-block;
+            color: #8b8b8b;
+            margin-left: 15px;
+            height: 48px;
+        }
+        
+        .menu ul li a {
+            color: #8b8b8b;
+            text-decoration: none;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        
+        .menu ul li:hover {
+            border-bottom: 3px solid#00bac6;
+        }
+        
+        .menu ul li a:hover {
+            color: #00bac6;
+        }
+        
+        .menu {
+            width: 70%;
+            float: left;
+        }
+        
+        .busca {
+            width: 30%;
+            float: right;
+            text-align: center;
+            border: 0 auto;
+            padding: 0 auto;
+            margin-top: 10px;
+        }
+        
+        .col100 {
+            width: 100%;
+            float: left;
+            position: relative;
+        }
+        
+        .menu_urls {
+            height: 80px;
+            border-bottom: 3px solid #efefef;
+        }
+        
+        .input_busca {
+            height: 25px;
+            padding-right: 2px;
+            width: 190px;
+            background-image: url("../img/icone-search.png");
+            background-repeat: no-repeat;
+            background-position: 96%;
+            border: 2px solid#d6d6d6;
+        }
+        
+        input menu_urls {
+            border-bottom: 3px solid#efefef;
+            height: 80px;
+        }
+        
+        input {
+            padding-left: 15px;
+        }
+        
+        button.slick-prev.slick-arrow {
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            background-color: transparent;
+            background-image: url(../img/anterior.png);
+            position: absolute;
+            z-index: 9;
+            top: 35%;
+            left: 15%;
+        }
+        
+        button.slick-next.slick-arrow {
+            font-size: 0px;
+            border: none;
+            width: 25px;
+            height: 51px;
+            background-color: transparent;
+            background-image: url(../img/proximo.png);
+            position: absolute;
+            z-index: 9;
+            top: 35%;
+            right: 15%;
+        }
+        .slick-list{
+            width: 100% !important;
+        }      
+        
+        .slick-initialized {
+            overflow: hidden;
+        }
+        .slick-dots li button{
+            font-size: 0px;
+            border: 5px solid white;
+            width: 26px;
+            height: 26px;
+            background: transparent;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .slick-dots li{
+            display: inline-block;
+            padding-left: 10px;
+        }
+        .slick-dots{
+            margin: 0 auto;
+            width: 50%;
+            position: absolute;
+            left: 45%;
+            top: 405px;
+        }
+        li.slick-active button{
+            background-color: #00bac6;
+        }
