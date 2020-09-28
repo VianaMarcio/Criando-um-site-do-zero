@@ -182,3 +182,22 @@
             font-size: 15px;
             color: #9a9a9a;            
         }
+        .col3{
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 30.1%;
+            float: left;
+            position: relative;
+        }
+        .bloco_texto{
+            margin-top: 3em;
+        }
+        .col3.bloco_texto img{
+            padding-left: 70px;
+        }
+        .col3.bloco_texto h3{
+            padding-left: 50px;
+        }
+        h3{
+            font-weight: normal !important;
+        }
