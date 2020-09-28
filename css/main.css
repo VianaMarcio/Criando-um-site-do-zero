@@ -4,7 +4,7 @@
             margin: 0 auto;
         }
         
-        main {
+        main, .content {
             width: 980px;
             position: relative;
             margin: 0 auto;
@@ -165,4 +165,20 @@
         }
         li.slick-active button{
             background-color: #00bac6;
+        }
+        .text_destaque{
+            text-align: center;
+        }
+        .texto_destaque strong{
+            color: #646464;
+        }
+        .texto_destaque h1{
+            font-family: sans-serif;
+            font-size: 30px;
+            color: #818181;
+            text-transform: uppercase;
+        }
+        .texto_destaque p{
+            font-size: 15px;
+            color: #9a9a9a;            
         }
