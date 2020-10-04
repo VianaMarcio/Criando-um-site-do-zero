@@ -1,4 +1,4 @@
-$('.slider_principal').slick({
+$('.slider-principal').slick({
     dots: true,
     infinite: true,
     speed: 300,
